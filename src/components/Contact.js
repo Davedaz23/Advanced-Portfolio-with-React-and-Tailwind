@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <section className="sm:p-20 p-5 bg-[#0a192f]" id="contact">
             <div className="sm:container mx-auto">
-                <h2 className="text-center text-4xl font-bold pb-10">Contact</h2>
+                <h2 className="text-center text-gray-400 text-4xl font-bold pb-10">Contact</h2>
                 <div className="w-full sm:flex">
                     <div className="sm:w-1/2 w-full">
                         <div className="mb-5">
