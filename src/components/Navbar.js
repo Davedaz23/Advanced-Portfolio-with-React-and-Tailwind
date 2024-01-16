@@ -4,8 +4,8 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
+  FaFacebook
+
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -115,6 +115,14 @@ const Navbar = () => {
               href='Davegbhonesty@gmail.com'
             >
               Email <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-400'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://facebook.com/daveloveg'
+            >
+              FaFacebook <FaFacebook size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>

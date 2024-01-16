@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhone } from "react-icons/fa";
+
 
 export default function Contact() {
     return (
@@ -68,7 +68,7 @@ export default function Contact() {
                                 </div>
                             </div>
                             <div className="mt-5 grid grid-cols-1 gap-y-8 sm:grid-cols-6">
-                                <a href="#" className="bg-gray-200 mx-auto w-32 text-center rounded-md p-2 border border-1 border-gray-100 hover:bg-white">Submit</a>
+                                <a href="/" className="bg-gray-200 mx-auto w-32 text-center rounded-md p-2 border border-1 border-gray-100 hover:bg-white">Submit</a>
                             </div>
                         </form>
                     </div>
